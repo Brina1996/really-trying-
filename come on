@@ -1,0 +1,13 @@
+#include<iostream>  //#include(预处理命令)；
+//using namespace(针对命名空间的指令)
+using namespace std;
+
+int main()    //int 返回值类型，整型
+{
+ cout << "Hello world " << endl;    //cout是一个输出流对象，它是C++系统预定义的对象
+ cout << "Welcome to C++" << endl;  // ; 语句结束符
+
+ cout << endl;  //endl 是一个换行符
+ system("pause");
+ return 0;
+}
